@@ -1,0 +1,73 @@
+.container {
+    text-align: center;
+}
+
+.principal {
+    
+}
+
+.retangulo {
+    width: 18%;
+    height: 15em;
+    margin: 5em 1em;
+    display: inline-table;
+    border: solid rgb(206, 206, 206) 1px;
+}
+
+.titulo {
+    font-size: 1.5em;
+    white-space: nowrap;
+    font-weight: bold;
+    width: 100%;
+    height: 20%;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.descricao {
+    width: 100%;
+    height: 30%;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.botao {
+    
+    width: 100%;
+    height: 25%;
+    margin: 1em 0 1em 0;
+}
+
+.btn-primary {
+    width: 95%;
+}
+
+@media (max-width: 950px) {
+    .retangulo {
+       width: 80%;
+       height: 200px;
+       margin: 0.5em 2em;
+    }
+}
+
+@media (max-width: 420px) {
+    .retangulo {
+       width: 80%;
+       height: 200px;
+       margin: 0.5em 2em;
+    }
+}
+
+@media (max-width: 391px) {
+    .retangulo {
+       width: 80%;
+       height: 170px;
+       margin: 0.5em 2em;
+    }
+}
+
+@media (max-width: 376px) {
+    .retangulo {
+       width: 70%;
+       height: 100px;
+       
+    }
+}
